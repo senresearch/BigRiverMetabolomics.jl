@@ -1,4 +1,4 @@
 name = "BigRiverMetabolomics"
 uuid = "232b8f78-c522-45ea-bf09-98a0e4fcf2c7"
-authors = ["GregFa <faragegr@gmail.com>"]
-version = "0.1.0"
+authors = ["Abhirath Anand <74202102+theabhirath@users.noreply.github.com>", "Greg Farage <faragegr@gmail.com>", "Saunak Sen <sen@uthsc.edu>"]
+version = "0.0.1-DEV"
