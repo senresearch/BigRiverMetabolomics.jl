@@ -2,3 +2,19 @@ name = "BigRiverMetabolomics"
 uuid = "232b8f78-c522-45ea-bf09-98a0e4fcf2c7"
 authors = ["Abhirath Anand <74202102+theabhirath@users.noreply.github.com>", "Greg Farage <faragegr@gmail.com>", "Saunak Sen <sen@uthsc.edu>"]
 version = "0.0.1-DEV"
+
+[deps]
+BigRiverJunbi = "6a06b223-7d19-411a-858f-7a319f02fdfd"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
+StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
+
+[compat]
+StatsBase = "0.34.6"
+
+[extras]
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test", "Random"]
