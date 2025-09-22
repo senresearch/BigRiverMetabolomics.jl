@@ -61,6 +61,6 @@ _in `BigRiverJunbi.jl`_
 ### Visualization
 _in `BigRiverMakie.jl`_
 
-- [ ] Dotplot
-- [ ] Heatmap
-- [ ] Confidence interval plot
+- [x] Dotplot
+- [x] Confidence interval plot
+- [ ] Correlation matrix heatmap
